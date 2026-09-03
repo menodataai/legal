@@ -1,0 +1,143 @@
+<!doctype html>
+<!--
+  The Support URL for the App Store listing (a required field) and a useful page
+  in its own right. Same self-contained rules as privacy.html.
+
+  BEFORE PUBLISHING: replace every «SUPPORT EMAIL».
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ServeCoach — Support</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #5c5c5c;
+    --rule: #e3e3e3; --accent: #1c6b4a; --card: #f6f8f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a; --fg: #e8e8e8; --muted: #a0a4ab;
+      --rule: #2b2f36; --accent: #6cc39a; --card: #1b1f25;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 44rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .4rem; letter-spacing: -.02em; }
+  h2 {
+    font-size: 1.2rem; margin: 2.6rem 0 .7rem; letter-spacing: -.01em;
+    padding-top: 1.4rem; border-top: 1px solid var(--rule);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  h3 { font-size: 1.02rem; margin: 1.6rem 0 .35rem; }
+  .meta { color: var(--muted); font-size: .92rem; margin: 0; }
+  .lede {
+    background: var(--card); border-left: 3px solid var(--accent);
+    padding: 1.1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 0 0 1rem;
+  }
+  .lede p:last-child { margin-bottom: 0; }
+  ul { padding-left: 1.3rem; }
+  li { margin: .45rem 0; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: .92rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>ServeCoach — Support</h1>
+  <p class="meta">Meno Data AB, Sweden</p>
+</header>
+
+<div class="lede">
+  <p>Something not working, or a number that looks wrong? Email
+  <a href="mailto:«SUPPORT EMAIL»">«SUPPORT EMAIL»</a> and describe what you saw.
+  A screenshot of the screen in question is worth more than any description.</p>
+</div>
+
+<h2>Getting a good recording</h2>
+<p>Almost every disappointing result traces back to the filming rather than the
+analysis. Three things matter most:</p>
+<ul>
+  <li><strong>Keep the phone still.</strong> A tripod, a fence post, or a bag will
+      do. The app measures distances in the frame, so a moving camera moves the
+      measurements.</li>
+  <li><strong>Get the whole serve in frame</strong> — including the top of the toss.
+      If the ball leaves the top of the picture, the app cannot see where it peaked
+      and will decline to report the reach.</li>
+  <li><strong>Leave the sound on.</strong> The sound of the racquet striking the ball
+      is how the app finds the moment of contact. Recording silently still works, but
+      it works less well.</li>
+</ul>
+
+<h2>Side-on or behind?</h2>
+<p>The app asks which way the camera was pointing, and the answer changes the
+analysis — so it is worth getting right. Read the court, not the player:</p>
+<ul>
+  <li><strong>Behind</strong> — the net runs across the picture, and the baseline is
+      a horizontal line at the player's feet.</li>
+  <li><strong>Side-on</strong> — the baseline recedes away from you as a near-vertical
+      line the player straddles, there is usually no net in shot, and after contact
+      the player travels across the frame rather than towards you.</li>
+</ul>
+
+<h2>Why does a tile show “—”?</h2>
+<p>Because the app could not measure that value from the footage it was given, and
+declined to guess.</p>
+<p>This is deliberate. A missing number is honest; an invented one quietly corrupts
+every comparison you make afterwards. Common causes are the toss leaving the top of
+the frame, the ball being hidden behind the player, or the contact sound being lost
+in wind or a noisy hall.</p>
+<p>If a tile is <em>always</em> empty across many serves, that is worth reporting —
+it usually means something about your setup that we can fix.</p>
+
+<h2>Your videos and your data</h2>
+<p>Everything stays on your iPhone. There is no account, no upload and no server —
+the app makes no network requests at all. Full detail is in the
+<a href="privacy.html">privacy policy</a>.</p>
+
+<h3>Getting your data out</h3>
+<p>Your recordings and analysis results are visible in the <strong>Files</strong> app
+under ServeCoach, and in Finder when the iPhone is connected to a computer. Copy or
+delete them there.</p>
+
+<h3>Deleting everything</h3>
+<p>Delete a session in the app to remove its data, or delete the app to remove all of
+it at once. Nothing is retained anywhere else, because nothing was sent anywhere
+else.</p>
+
+<h2>Filming other people's children</h2>
+<p>Many people using this app are coaches, filming somebody else's child. The app
+keeps that footage private — it never leaves the phone. Getting the parent's or
+guardian's permission before recording is still yours to do.</p>
+
+<h2>Requirements</h2>
+<ul>
+  <li>iPhone, iOS 17 or later. iPhone only for now — there is no iPad version.</li>
+  <li>Analysis runs on the device and uses its Neural Engine; a longer clip takes
+      longer on an older phone.</li>
+</ul>
+
+<h2>Contact</h2>
+<p><a href="mailto:«SUPPORT EMAIL»">«SUPPORT EMAIL»</a> — please include your iPhone
+model, roughly when the recording was made, and a screenshot if you have one.</p>
+
+<footer>
+  ServeCoach is published by Meno Data AB. This page makes no third-party requests
+  and sets no cookies.
+</footer>
+
+</div>
+</body>
+</html>
